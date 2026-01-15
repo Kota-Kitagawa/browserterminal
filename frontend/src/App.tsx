@@ -19,7 +19,6 @@ function App() {
       
       {/* デスクトップアイコン */}
       <div className="p-4 grid grid-cols-1 gap-4 w-24">
-        <DesktopIcon icon={<Monitor size={32} />} label="This PC" />
         <DesktopIcon 
           icon={<FileText size={32} />} 
           label="Notepad" 
